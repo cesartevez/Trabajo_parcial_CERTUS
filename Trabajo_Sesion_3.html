@@ -1,0 +1,58 @@
+<head>
+    <title> Proyecto 03 - Formulario</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <div id="Encabezado">
+        <h1>Consulting SAC</h1>
+        <p>Soluciones Informacticas</p>
+
+    </div>
+
+    <div>
+    <h1>Contactanos</h1>
+    <form action="Registro_Contacto.html" method="post" target="_self">
+        <!-- Campos de Texto-->
+        <label for = "name"> Nombre completo</label>
+        <input id="name" name="name" type="text" placeholder="Escribe aqui tu nombre" maxlength="10">
+        <p></p>
+        <label for = "email">Correo electronico</label>
+        <input id="email" name="email" type="text" value="@">
+        <p></p>
+        <label for = "sucjet">Asunto</label>
+        <input id="sucjet" name="sucjet" type="text">
+
+        <!-- Campos de opciones-->
+        <h3> Tipo de Consulta</h3>
+        <label for = "typeConsult01">Asistencia Tecnica</label>
+        <input id="typeConsult01" name="typeConsult" type="radio" checked>
+
+        <label for = "typeConsult02">Asesoria Informatica</label>
+        <input id="typeConsult02" name="typeConsult" type="radio">
+
+
+        <h3> Tipo de Persona</h3>
+        <label for = "typePerson01">Natural</label>
+        <input id="typePerson01" name="typePerson" type="radio" checked>
+
+        <label for = "typeConsult02">Juridica</label>
+        <input id="typePerson02" name="typePerson" type="radio">
+
+        <!-- Campo Botones-->
+
+        <input type="submit" value="Enviar">
+
+
+
+
+    </form>
+    </div>
+
+    <div id="pie">
+        <p>Sitio web construido por Cesar Tevez</p>
+    </div>
+
+
+</body>

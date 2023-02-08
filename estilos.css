@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+/* ESTILO DE CUERPO PRINCIPAL */
+body{
+    background-color: #F9EEC2;
+
+}
+p {
+    color: #58635C;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+}
+h1{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.2em;  
+}
+
+
+h1,h3 {
+    color: #CB461B;
+    /* font-size: 30px; */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* ESTILO DE ENCABEZADO */
+#Encabezado {
+    background-color: cadetblue;
+}
+
+/* ESTILODE CATALOGO */
+#Catalogo {
+    background-color: #FFF;
+    padding: 15px;
+}
+.producto > p {
+    font-family:'Courier New', Courier, monospace ;
+}
+.producto {
+    display: block;
+    margin: 10px;
+    border-color : #cb461b;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 10px;
+    height: 100%;
+    
+}
+
+.producto > img {
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top:10px ;
+}
+
+.producto > h3 {
+    margin-bottom: 10px;
+}
